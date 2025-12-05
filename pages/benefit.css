@@ -1,29 +1,30 @@
 .navbar {
-            width: 1440px;
-            padding: 15px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #ffffff;
-            box-shadow: 0 2px 8px rgb(0, 0, 0);
-            position: fixed;
-            top: 0px;
-            left: 0px
-        }
+    width: 1440px;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    left: 0px
+}
 
 
-        .logo {
-            font-size: 22px;
-            font-weight: 600;
-            color: #121312;
-        }
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #121312;
+}
 
-        .nav-links {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            gap: 30px;
-        }
+.nav-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #c0ebf9;
@@ -78,6 +79,7 @@ h1 {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
+    
 }
 
 .card h2 {
@@ -191,11 +193,12 @@ h1 {
 .footer-bottom p {
     font-size: 14px
 }
+
 .social-icons img {
-            width: 28px;
-            margin: 0 5px;
-            transition: 0.3s;
-        }
+    width: 28px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
 
 .card p {
     font-size: 15px;
