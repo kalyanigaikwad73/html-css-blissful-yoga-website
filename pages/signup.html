@@ -8,7 +8,8 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: url("../images/signup.jpg") no-repeat center center/cover;
+            background: url("/images/signup.jpg") no-repeat center center/cover;
+            ;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -68,13 +69,38 @@
             box-shadow: 0 2px 8px rgb(0, 0, 0);
             position: fixed;
             top: 0px;
-            left: 0px
+            left: 0px;
         }
         
         .logo {
             font-size: 22px;
             font-weight: 600;
             color: #121312;
+        }
+        
+        .nav-links {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+        }
+        
+        .logo {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .logo img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+        
+        .logo span {
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
         }
         
         .nav-links {
@@ -210,7 +236,9 @@
 <body>
     <div>
         <nav class="navbar">
-            <div class="logo">Blissful Yoga Hub</div>
+            <div class="logo">
+                <img src="../images/images11.jpg" alt="yoga-logo">
+                <span>Blissful Yoga Hub</span></div>
 
             <div class="nav-links">
                 <a href="../index.html">Home</a>
